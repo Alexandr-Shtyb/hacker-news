@@ -1,0 +1,8 @@
+.errorBlock {
+	display: flex;
+	justify-content: center;
+}
+
+.errorText {
+	font-size: 16px;
+}

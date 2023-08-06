@@ -1,0 +1,44 @@
+.listItem {
+	position: relative;
+	transition: background-color, color .3s;
+	color: #000;
+	padding: 10px;
+	box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+	width: 620px;
+}
+
+.listItem:hover {
+	color: #fff;
+	background-color: #FFA500;
+	cursor: pointer;
+}
+
+.postInner {
+	display: flex;
+	align-items: center;
+}
+
+.title {
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.score {
+	position: absolute;
+	bottom: 10px;
+	right: 20px;
+}
+
+@media (max-width: 745px) {
+	.listItem {
+		width: 310px;
+	}
+}
+
+@media (max-width: 420px) {
+	.listItem {
+		width: 280px;
+	}
+}
+
+

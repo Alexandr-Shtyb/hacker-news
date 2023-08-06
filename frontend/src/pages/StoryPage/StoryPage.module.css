@@ -1,0 +1,44 @@
+.mainBlock {
+	padding-top: 100px;
+}
+
+.itemBlock {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 15px;
+}
+
+.btnBack {
+	margin-bottom: 35px;
+}
+
+.btnMore, .btnUpdateComments {
+	margin-bottom: 35px;
+}
+
+.btnUpdateCommentsBlock {
+	display: flex;
+	justify-content: center;
+}
+
+.blockComments {
+	display: flex;
+	justify-content: center;
+	border: 1px solid #FFA500;
+	margin-bottom: 15px;
+}
+
+.noCommentsBlock {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 35px;
+}
+
+@media (max-width: 745px) {
+	.noCommentsText {
+		font-size: 20px !important;
+	}
+	.blockCommentsText {
+		font-size: 24px !important;
+	}
+}

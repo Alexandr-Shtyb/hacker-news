@@ -1,0 +1,24 @@
+.blockComment {
+	padding: 25px;
+	margin-bottom: 30px;
+}
+
+.textComment {
+	margin-bottom: 35px;
+}
+
+.timeComment {
+	font-weight: 600;
+}
+
+.footerComment {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+@media (max-width: 450px) {
+	.textComment {
+		overflow: scroll;
+	}
+}

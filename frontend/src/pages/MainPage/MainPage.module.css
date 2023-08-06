@@ -1,0 +1,25 @@
+.mainTitle {
+	width: 100%;
+	justify-content: center;
+}
+
+.btn {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.list {
+	display: flex;
+	justify-content: center;
+}
+
+.noneList {
+	display: none;
+}
+
+@media (max-width: 745px) {
+	.titleText {
+		font-size: 30px !important;
+	}
+}
