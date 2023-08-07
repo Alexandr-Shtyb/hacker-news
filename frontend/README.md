@@ -13,6 +13,7 @@
 - RTK Query
 - Ant Design
 - CSS Modules
+- Jest
 - Yarn
 
 ## Запуск и установка:
