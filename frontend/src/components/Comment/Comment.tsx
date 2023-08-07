@@ -27,7 +27,7 @@ const Comment: FC<IComment> = ({id}) => {
 
   return (
     <>
-      <div>
+      <div data-testid="comment">
         {error && <Error />}
         {(isLoading || isFetching) ? <Spinner fz={24}/> : null}
         {
