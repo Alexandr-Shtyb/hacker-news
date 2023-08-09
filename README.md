@@ -9,4 +9,4 @@
 
 >### Увидеть требования и текущую версию приложения можно:
 >- [Task](https://github.com/avito-tech/internship_frontend_2022)
->- [Deploy](https://alexandr-shtyb.github.io/coffee-shop/)
+>- [Deploy](https://alexandr-shtyb.github.io/hacker-news/)
